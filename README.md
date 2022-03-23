@@ -16,9 +16,6 @@ To install it, issue ``` $sudo cpan install LWP::Protocol::https```.
 
 #### Adjust yum.repos.d if you're in CentOS >= 7
 
-Edit:
-```/etc/yum/repos.d/CentOS-Linux-AppStream.repo```
-
 ```
 1) dnf clean all
 2) dnf --disablerepo '*' --enablerepo=extras swap centos-linux-repos centos-stream-repos # ( you may need to run this twice - due to dnf auto-aborting )
